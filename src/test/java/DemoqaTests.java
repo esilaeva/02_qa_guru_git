@@ -5,6 +5,6 @@ import static com.codeborne.selenide.Selenide.open;
 public class DemoqaTests {
     @Test
     void openSite(){
-
+        open("https://demoqa.com");
     }
 }
